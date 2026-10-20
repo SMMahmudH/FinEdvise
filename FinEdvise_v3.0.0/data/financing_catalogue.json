@@ -1,0 +1,342 @@
+{
+  "checked_on": "2026-10-20",
+  "notice_en": "Rates marked VERIFIED come from the dated public source shown. Everything marked ILLUSTRATIVE is a placeholder to confirm with the lender before use. This is not financial advice.",
+  "notice_bn": "VERIFIED চিহ্নিত হার তারিখসহ দেওয়া প্রকাশ্য উৎস থেকে নেওয়া। ILLUSTRATIVE চিহ্নিত সবকিছু নমুনা; ব্যবহারের আগে ঋণদাতার কাছ থেকে নিশ্চিত হতে হবে। এটি আর্থিক পরামর্শ নয়।",
+  "eligibility_questions": [
+    {
+      "id": "has_trade_licence",
+      "priority": 1,
+      "kind": "yes_no",
+      "q_en": "Does the school have a current trade licence?",
+      "q_bn": "স্কুলের কি হালনাগাদ ট্রেড লাইসেন্স আছে?"
+    },
+    {
+      "id": "has_tin",
+      "priority": 2,
+      "kind": "yes_no",
+      "q_en": "Does the school or owner have a TIN (e-TIN) certificate?",
+      "q_bn": "স্কুল বা মালিকের কি টিআইএন (ই-টিআইএন) সনদ আছে?"
+    },
+    {
+      "id": "bank_statement_months",
+      "priority": 3,
+      "kind": "number",
+      "q_en": "How many months of bank statements can you show for the school account?",
+      "q_bn": "স্কুলের ব্যাংক হিসাবের কত মাসের স্টেটমেন্ট দেখাতে পারবেন?"
+    },
+    {
+      "id": "can_offer_collateral",
+      "priority": 4,
+      "kind": "yes_no",
+      "q_en": "Could you offer collateral (for example land papers or a deposit)?",
+      "q_bn": "জামানত দিতে পারবেন কি (যেমন জমির কাগজ বা ডিপোজিট)?"
+    },
+    {
+      "id": "has_guarantor",
+      "priority": 5,
+      "kind": "yes_no",
+      "q_en": "Do you have a guarantor who would sign for a loan?",
+      "q_bn": "ঋণের জন্য সই করবেন এমন জামিনদার আছে কি?"
+    },
+    {
+      "id": "owner_can_lend",
+      "priority": 6,
+      "kind": "yes_no",
+      "q_en": "If needed, could you lend the school the missing amount from your own money for about two months?",
+      "q_bn": "দরকার হলে ঘাটতির টাকা কি নিজের টাকা থেকে প্রায় দুই মাসের জন্য স্কুলকে ধার দিতে পারবেন?"
+    }
+  ],
+  "options": [
+    {
+      "id": "BANK_CMSME_REFINANCE",
+      "kind": "loan",
+      "name_en": "Bank working-capital loan under Bangladesh Bank's CMSME refinance fund",
+      "name_bn": "বাংলাদেশ ব্যাংকের সিএমএসএমই পুনঃঅর্থায়ন তহবিলের আওতায় ব্যাংকের চলতি মূলধন ঋণ",
+      "examples_en": "Offered through participating banks (AB Bank, NRB Bank and Bank Asia signed in Sep 2026).",
+      "examples_bn": "অংশগ্রহণকারী ব্যাংকের মাধ্যমে (সেপ্টেম্বর ২০২৬-এ এবি ব্যাংক, এনআরবি ব্যাংক ও ব্যাংক এশিয়া চুক্তি করেছে)।",
+      "rate_pct": 9.0,
+      "rate_basis": "declining",
+      "rate_badge": "VERIFIED",
+      "rate_sources": [
+        {
+          "title": "AB Bank joins hands with BB to refinance CMSME working capital (The Financial Express)",
+          "url": "https://thefinancialexpress.com.bd/trade/ab-bank-joins-hands-with-bb-to-refinance-cmsme-working-capital",
+          "published": "2026-09-09",
+          "checked_on": "2026-10-20"
+        },
+        {
+          "title": "NRB Bank, BB to offer working capital financing at 9% (Dhaka Tribune)",
+          "url": "https://www.dhakatribune.com/business/banks/419444/nrb-bank-bb-to-offer-working-capital-financing-at",
+          "published": "2026-09-09",
+          "checked_on": "2026-10-20"
+        }
+      ],
+      "amount_min": 50000,
+      "amount_max": 500000,
+      "tenor_months": 12,
+      "repayment": "monthly",
+      "upfront_fee_pct": 0.005,
+      "days_to_cash": 21,
+      "terms_badge": "ILLUSTRATIVE",
+      "terms_note_en": "The sources give the 9% rate only. Amount, tenor, fee and processing time are placeholders to confirm with the bank.",
+      "terms_note_bn": "উৎসে শুধু ৯% হার আছে। পরিমাণ, মেয়াদ, ফি ও সময় নমুনা; ব্যাংক থেকে নিশ্চিত হতে হবে।",
+      "requires": {
+        "has_trade_licence": true,
+        "has_tin": true,
+        "bank_statement_months": 6
+      },
+      "documents_en": [
+        "Application letter",
+        "Current trade licence",
+        "TIN certificate",
+        "National ID of owner and guarantor",
+        "CIB (credit bureau) undertaking",
+        "Financial statements for last year and this year, with a projection",
+        "Bank statements"
+      ],
+      "documents_bn": [
+        "আবেদনপত্র",
+        "হালনাগাদ ট্রেড লাইসেন্স",
+        "টিআইএন সনদ",
+        "মালিক ও জামিনদারের জাতীয় পরিচয়পত্র",
+        "সিআইবি অঙ্গীকারনামা",
+        "গত ও চলতি বছরের আর্থিক বিবরণী এবং প্রক্ষেপণ",
+        "ব্যাংক স্টেটমেন্ট"
+      ],
+      "documents_source": {
+        "title": "Basic documents needed to apply for loans (Mutual Trust Bank)",
+        "url": "https://www.mutualtrustbank.com/sme/basic-documents-needed-to-apply-for-loans/",
+        "checked_on": "2026-10-20",
+        "note": "Page last modified Jan 2021; one bank's list, used as a typical example."
+      }
+    },
+    {
+      "id": "BANK_SME_MARKET",
+      "kind": "loan",
+      "name_en": "Bank SME working-capital loan at market rate",
+      "name_bn": "বাজারদরে ব্যাংকের এসএমই চলতি মূলধন ঋণ",
+      "examples_en": "Commercial banks under the market-based rate regime (since May 2024).",
+      "examples_bn": "বাজারভিত্তিক সুদহারের বাণিজ্যিক ব্যাংক (মে ২০২৪ থেকে)।",
+      "rate_pct": 14.0,
+      "rate_basis": "declining",
+      "rate_badge": "ILLUSTRATIVE",
+      "rate_note_en": "Banks' published maximum lending rates were up to 14-15% (July 2026); 14% is used as a placeholder for an SME offer.",
+      "rate_note_bn": "জুলাই ২০২৬-এ ব্যাংকগুলোর প্রকাশিত সর্বোচ্চ ঋণ সুদ ১৪-১৫% পর্যন্ত; এসএমই প্রস্তাবের নমুনা হিসেবে ১৪% ধরা হয়েছে।",
+      "rate_sources": [
+        {
+          "title": "4pc interest rate spread to hit Bangladesh's SME sector (Prothom Alo English)",
+          "url": "https://en.prothomalo.com/business/local/6dwhdipo7p",
+          "published": "2026-07-07",
+          "checked_on": "2026-10-20"
+        }
+      ],
+      "amount_min": 100000,
+      "amount_max": 1000000,
+      "tenor_months": 12,
+      "repayment": "monthly",
+      "upfront_fee_pct": 0.01,
+      "days_to_cash": 14,
+      "terms_badge": "ILLUSTRATIVE",
+      "terms_note_en": "Amount, tenor, fee and processing time are placeholders. Banks may ask for collateral.",
+      "terms_note_bn": "পরিমাণ, মেয়াদ, ফি ও সময় নমুনা। ব্যাংক জামানত চাইতে পারে।",
+      "requires": {
+        "has_trade_licence": true,
+        "has_tin": true,
+        "bank_statement_months": 12,
+        "can_offer_collateral": true
+      },
+      "documents_en": [
+        "Application letter",
+        "Current trade licence",
+        "TIN certificate",
+        "Net worth statement",
+        "National ID of owner and guarantor",
+        "CIB (credit bureau) undertaking",
+        "Financial statements",
+        "Bank statements",
+        "Collateral papers"
+      ],
+      "documents_bn": [
+        "আবেদনপত্র",
+        "হালনাগাদ ট্রেড লাইসেন্স",
+        "টিআইএন সনদ",
+        "নিট সম্পদ বিবরণী",
+        "মালিক ও জামিনদারের জাতীয় পরিচয়পত্র",
+        "সিআইবি অঙ্গীকারনামা",
+        "আর্থিক বিবরণী",
+        "ব্যাংক স্টেটমেন্ট",
+        "জামানতের কাগজ"
+      ],
+      "documents_source": {
+        "title": "Basic documents needed to apply for loans (Mutual Trust Bank)",
+        "url": "https://www.mutualtrustbank.com/sme/basic-documents-needed-to-apply-for-loans/",
+        "checked_on": "2026-10-20",
+        "note": "Page last modified Jan 2021; one bank's list, used as a typical example."
+      }
+    },
+    {
+      "id": "NGO_MFI_ENTERPRISE",
+      "kind": "loan",
+      "name_en": "NGO-MFI microenterprise loan (declining balance)",
+      "name_bn": "এনজিও-এমএফআই ক্ষুদ্র উদ্যোগ ঋণ (ক্রমহ্রাসমান স্থিতি)",
+      "examples_en": "Microenterprise loans such as BRAC Progoti (described in a J-PAL study as about 22% a year, 12 equal monthly instalments, collateral and a guarantor).",
+      "examples_bn": "ব্র্যাক প্রগতির মতো ক্ষুদ্র উদ্যোগ ঋণ (জে-প্যাল গবেষণায় বছরে প্রায় ২২%, ১২টি সমান মাসিক কিস্তি, জামানত ও জামিনদার)।",
+      "rate_pct": 24.0,
+      "rate_basis": "declining",
+      "rate_badge": "VERIFIED",
+      "rate_note_en": "24% is the regulator's (MRA) maximum service charge; we use the cap as the conservative case.",
+      "rate_note_bn": "২৪% হলো নিয়ন্ত্রক সংস্থার (এমআরএ) সর্বোচ্চ সার্ভিস চার্জ; রক্ষণশীলভাবে এই সীমা ধরা হয়েছে।",
+      "rate_sources": [
+        {
+          "title": "Microcredit service charge capped at 24% (bdnews24.com, quoting MRA)",
+          "url": "https://bdnews24.com/bangladesh/m7xqnypocz",
+          "published": "2026-10-13",
+          "checked_on": "2026-10-20"
+        },
+        {
+          "title": "Flexible Loan Contracts for Microentrepreneurs in Bangladesh (J-PAL)",
+          "url": "https://www.povertyactionlab.org/evaluation/flexible-loan-contracts-microentrepreneurs-bangladesh",
+          "published": null,
+          "checked_on": "2026-10-20"
+        }
+      ],
+      "amount_min": 100000,
+      "amount_max": 1000000,
+      "tenor_months": 12,
+      "repayment": "monthly",
+      "upfront_fee_pct": 0.0,
+      "days_to_cash": 7,
+      "terms_badge": "ILLUSTRATIVE",
+      "terms_note_en": "Amount range is the study's USD 1,000-10,000 range rounded to taka; processing time is a placeholder.",
+      "terms_note_bn": "পরিমাণের সীমা গবেষণার ১,০০০-১০,০০০ মার্কিন ডলারের আনুমানিক টাকা; সময় নমুনা।",
+      "requires": {
+        "can_offer_collateral": true,
+        "has_guarantor": true
+      },
+      "documents_en": [
+        "National ID of owner and guarantor",
+        "Proof of running business (trade licence if available)",
+        "Collateral papers",
+        "Recent photos"
+      ],
+      "documents_bn": [
+        "মালিক ও জামিনদারের জাতীয় পরিচয়পত্র",
+        "চালু ব্যবসার প্রমাণ (ট্রেড লাইসেন্স থাকলে)",
+        "জামানতের কাগজ",
+        "সাম্প্রতিক ছবি"
+      ],
+      "documents_source": {
+        "title": "Flexible Loan Contracts for Microentrepreneurs in Bangladesh (J-PAL)",
+        "url": "https://www.povertyactionlab.org/evaluation/flexible-loan-contracts-microentrepreneurs-bangladesh",
+        "checked_on": "2026-10-20",
+        "note": "Study description; confirm the current product terms with the NGO."
+      }
+    },
+    {
+      "id": "NGO_FLAT_RATE",
+      "kind": "loan",
+      "name_en": "NGO loan advertised at a 'flat 15%'",
+      "name_bn": "'ফ্ল্যাট ১৫%' বলে বিজ্ঞাপিত এনজিও ঋণ",
+      "examples_en": "Included to show why a flat rate costs much more than it sounds: the source puts the effective rate at about 27%.",
+      "examples_bn": "ফ্ল্যাট হার শুনতে যত কম, আসলে কত বেশি তা দেখাতে রাখা হয়েছে: উৎস অনুযায়ী কার্যকর হার প্রায় ২৭%।",
+      "rate_pct": 15.0,
+      "rate_basis": "flat",
+      "rate_badge": "VERIFIED",
+      "rate_sources": [
+        {
+          "title": "Microcredit service charges (bdnews24.com)",
+          "url": "https://bdnews24.com/bangladesh/m7xqnypocz",
+          "published": "2026-10-13",
+          "checked_on": "2026-10-20"
+        }
+      ],
+      "amount_min": 50000,
+      "amount_max": 500000,
+      "tenor_months": 12,
+      "repayment": "monthly",
+      "upfront_fee_pct": 0.0,
+      "days_to_cash": 7,
+      "terms_badge": "ILLUSTRATIVE",
+      "terms_note_en": "Tenor and monthly instalments are placeholders; the source gives the advertised flat rate and the effective rate only.",
+      "terms_note_bn": "মেয়াদ ও মাসিক কিস্তি নমুনা; উৎসে শুধু বিজ্ঞাপিত ফ্ল্যাট হার ও কার্যকর হার আছে।",
+      "requires": {
+        "has_guarantor": true
+      },
+      "documents_en": [
+        "National ID of owner and guarantor",
+        "Proof of running business",
+        "Recent photos"
+      ],
+      "documents_bn": [
+        "মালিক ও জামিনদারের জাতীয় পরিচয়পত্র",
+        "চালু ব্যবসার প্রমাণ",
+        "সাম্প্রতিক ছবি"
+      ],
+      "documents_source": null
+    },
+    {
+      "id": "SUPPLIER_CREDIT_PRESS",
+      "kind": "supplier_credit",
+      "name_en": "30-day credit from the printing press",
+      "name_bn": "ছাপাখানা থেকে ৩০ দিনের বাকি",
+      "examples_en": "Pay the press 30 days later and give up its 1% cash discount.",
+      "examples_bn": "৩০ দিন পরে টাকা দিন, কিন্তু নগদে পাওয়া ১% ছাড় ছেড়ে দিতে হবে।",
+      "rate_pct": null,
+      "rate_basis": "lost_discount",
+      "lost_discount_pct": 0.01,
+      "credit_days": 30,
+      "rate_badge": "ILLUSTRATIVE",
+      "rate_sources": [],
+      "amount_min": 0,
+      "amount_max": null,
+      "tenor_months": 1,
+      "repayment": "single",
+      "upfront_fee_pct": 0.0,
+      "days_to_cash": 0,
+      "terms_badge": "ILLUSTRATIVE",
+      "terms_note_en": "The school's own supplier terms; confirm with the press. Covers only items bought from the press.",
+      "terms_note_bn": "স্কুলের নিজস্ব সরবরাহকারীর শর্ত; প্রেসের সাথে নিশ্চিত করুন। শুধু প্রেস থেকে কেনা জিনিসে প্রযোজ্য।",
+      "requires": {},
+      "documents_en": [
+        "Purchase order",
+        "One year of payment history with the press"
+      ],
+      "documents_bn": [
+        "ক্রয় আদেশ",
+        "প্রেসের সাথে এক বছরের লেনদেনের ইতিহাস"
+      ],
+      "documents_source": null
+    },
+    {
+      "id": "OWNER_BRIDGE",
+      "kind": "owner_loan",
+      "name_en": "Short bridge loan from the owner",
+      "name_bn": "মালিকের কাছ থেকে স্বল্পমেয়াদি ধার",
+      "examples_en": "Recorded as money the school owes the owner, never as income.",
+      "examples_bn": "স্কুল মালিকের কাছে দেনা হিসেবে লেখা হয়, কখনো আয় হিসেবে নয়।",
+      "rate_pct": 0.0,
+      "rate_basis": "declining",
+      "rate_badge": "ASSUMED",
+      "rate_sources": [],
+      "amount_min": 0,
+      "amount_max": null,
+      "tenor_months": 2,
+      "repayment": "single",
+      "upfront_fee_pct": 0.0,
+      "days_to_cash": 0,
+      "terms_badge": "ASSUMED",
+      "terms_note_en": "Only if the owner chooses to. It moves personal risk onto the owner.",
+      "terms_note_bn": "শুধু মালিক নিজে চাইলে। এতে ঝুঁকি মালিকের ব্যক্তিগত অর্থে যায়।",
+      "requires": {
+        "owner_can_lend": true
+      },
+      "documents_en": [
+        "A signed note of the amount and repayment date"
+      ],
+      "documents_bn": [
+        "পরিমাণ ও ফেরতের তারিখসহ সই করা নোট"
+      ],
+      "documents_source": null
+    }
+  ]
+}

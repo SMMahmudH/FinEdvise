@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "dataset_label": "SYNTHETIC_DEMO_DATA",
+    "notice_en": "Fictional school. Every record in this file is synthetic sandbox data made for testing and demonstration.",
+    "notice_bn": "কাল্পনিক স্কুল। এই ফাইলের প্রতিটি হিসাব পরীক্ষা ও ডেমোর জন্য তৈরি সিন্থেটিক স্যান্ডবক্স ডেটা।",
+    "school_name_en": "Shapla Kuri Kindergarten & Model School",
+    "school_name_bn": "শাপলা কুঁড়ি কিন্ডারগার্টেন ও মডেল স্কুল",
+    "location_en": "Mirpur, Dhaka (fictional profile)",
+    "location_bn": "মিরপুর, ঢাকা (কাল্পনিক প্রোফাইল)",
+    "currency": "BDT",
+    "scenario_date": "2026-11-15",
+    "data_version": "2026-10-20.1"
+  },
+  "profile": {
+    "classes": "Play group to Class 5",
+    "active_students": 150,
+    "classroom_capacity": 185,
+    "teachers": 10,
+    "support_staff": 2,
+    "years_operating": 7
+  },
+  "fees": {
+    "monthly_tuition": 1200,
+    "annual_session_fee": 2000,
+    "admission_fee_new": 2500,
+    "exam_fee_per_semester": 600,
+    "exam_months": ["May", "November"],
+    "scholarships": {
+      "students": 16,
+      "monthly_waiver_per_student": 500,
+      "note_en": "Need-based scholarships: 16 students pay BDT 700 instead of BDT 1,200 a month.",
+      "note_bn": "প্রয়োজনভিত্তিক বৃত্তি: ১৬ জন শিক্ষার্থী মাসে ১,২০০ টাকার বদলে ৭০০ টাকা দেয়।"
+    },
+    "new_student_discount_avg": 400,
+    "new_student_discount_note_en": "Average one-time discount at admission (sibling and early-admission discounts).",
+    "new_student_discount_note_bn": "ভর্তির সময় এককালীন গড় ছাড় (ভাই-বোন ও আগাম ভর্তির ছাড়)।"
+  },
+  "monthly_costs": {
+    "payroll_teachers": 72000,
+    "payroll_staff": 13000,
+    "rent": 25000,
+    "utilities": 7500,
+    "refreshments": 4500,
+    "teaching_supplies": 3500,
+    "routine_printing": 4500
+  },
+  "reserve_policy": {
+    "minimum_reserve": 50000,
+    "status": "PROPOSED_DEFAULT",
+    "rationale_en": "About two weeks of salaries, rent and utilities kept aside for emergencies. Proposed default: the owner can change it.",
+    "rationale_bn": "জরুরি অবস্থার জন্য প্রায় দুই সপ্তাহের বেতন, ভাড়া ও বিল আলাদা রাখা। এটি প্রস্তাবিত মান; মালিক বদলাতে পারেন।"
+  },
+  "opening_position": {
+    "as_of": "2026-11-15",
+    "cash_in_hand": 22000,
+    "bank": 185000,
+    "bkash_available": 13000,
+    "bkash_pending": {
+      "amount": 4000,
+      "expected_date": "2026-11-16",
+      "note_en": "Tuition paid by parents through bKash on 13-14 Nov; settles to the bank on 16 Nov. Not spendable yet.",
+      "note_bn": "১৩-১৪ নভেম্বর অভিভাবকরা বিকাশে টিউশন দিয়েছেন; ১৬ নভেম্বর ব্যাংকে আসবে। এখনো খরচযোগ্য নয়।"
+    },
+    "source_en": "Reconciled sandbox ledger (cash count, bank statement and bKash merchant statement) on 15 Nov 2026",
+    "source_bn": "১৫ নভেম্বর ২০২৬-এর মেলানো স্যান্ডবক্স লেজার (ক্যাশ গণনা, ব্যাংক ও বিকাশ মার্চেন্ট স্টেটমেন্ট)"
+  },
+  "monthly_actuals_2026": {
+    "opening_cash_jan": 55000,
+    "outstanding_tuition_opening_jan": 0,
+    "months": [
+      {"month": "2026-01", "tuition_billed": 172000, "tuition_collected": 170000, "session_and_admission": 25000, "exam_fees": 0, "merchandise": 22000, "fixed_costs": 130000, "exam_paper_printing": 6000, "admission_campaign": 0, "events_repairs_merch": 52000, "note_en": "Late 2026 session fees and new admissions (most 2026 session fees were collected in Dec 2025); new-year books, diaries and classroom set-up.", "note_bn": "দেরিতে আসা ২০২৬ সেশন ফি ও নতুন ভর্তি (বেশিরভাগ সেশন ফি ডিসেম্বর ২০২৫-এ আদায় হয়েছিল); নতুন বছরের বই, ডায়েরি ও ক্লাসরুম প্রস্তুতি।"},
+      {"month": "2026-02", "tuition_billed": 172000, "tuition_collected": 168000, "session_and_admission": 10000, "exam_fees": 0, "merchandise": 14000, "fixed_costs": 130000, "exam_paper_printing": 10000, "admission_campaign": 0, "events_repairs_merch": 36000, "note_en": "First monthly test; annual study tour and picnic.", "note_bn": "১ম মাসিক পরীক্ষা; বার্ষিক শিক্ষাসফর ও পিকনিক।"},
+      {"month": "2026-03", "tuition_billed": 172000, "tuition_collected": 122000, "session_and_admission": 0, "exam_fees": 0, "merchandise": 4000, "fixed_costs": 148000, "exam_paper_printing": 6000, "admission_campaign": 0, "events_repairs_merch": 14000, "note_en": "Ramadan and Eid-ul-Fitr closure: collections fell; festival allowance BDT 18,000 paid before the holiday.", "note_bn": "রমজান ও ঈদুল ফিতরের ছুটি: আদায় কমেছে; ছুটির আগে ১৮,০০০ টাকা উৎসব ভাতা।"},
+      {"month": "2026-04", "tuition_billed": 172000, "tuition_collected": 214000, "session_and_admission": 0, "exam_fees": 0, "merchandise": 3000, "fixed_costs": 122000, "exam_paper_printing": 10000, "admission_campaign": 0, "events_repairs_merch": 12000, "note_en": "Arrears collected after Eid; second monthly test.", "note_bn": "ঈদের পর বকেয়া আদায়; ২য় মাসিক পরীক্ষা।"},
+      {"month": "2026-05", "tuition_billed": 172000, "tuition_collected": 170000, "session_and_admission": 0, "exam_fees": 82000, "merchandise": 6000, "fixed_costs": 130000, "exam_paper_printing": 46000, "admission_campaign": 0, "events_repairs_merch": 48000, "note_en": "First semester exam fees; bulk purchase of exam paper and printing.", "note_bn": "১ম সেমিস্টার পরীক্ষার ফি; পরীক্ষার কাগজ ও প্রিন্টিং একসাথে কেনা।"},
+      {"month": "2026-06", "tuition_billed": 172000, "tuition_collected": 164000, "session_and_admission": 0, "exam_fees": 0, "merchandise": 2000, "fixed_costs": 130000, "exam_paper_printing": 5000, "admission_campaign": 0, "events_repairs_merch": 26000, "note_en": "Short summer break; classroom fan and electrical repairs.", "note_bn": "সংক্ষিপ্ত গ্রীষ্মকালীন ছুটি; ফ্যান ও বৈদ্যুতিক মেরামত।"},
+      {"month": "2026-07", "tuition_billed": 172000, "tuition_collected": 170000, "session_and_admission": 0, "exam_fees": 0, "merchandise": 8000, "fixed_costs": 130000, "exam_paper_printing": 10000, "admission_campaign": 0, "events_repairs_merch": 24000, "note_en": "Third monthly test; brain-games classroom kits added.", "note_bn": "৩য় মাসিক পরীক্ষা; ক্লাসরুমে ব্রেইন-গেমস কিট যোগ।"},
+      {"month": "2026-08", "tuition_billed": 172000, "tuition_collected": 168000, "session_and_admission": 0, "exam_fees": 0, "merchandise": 4000, "fixed_costs": 130000, "exam_paper_printing": 10000, "admission_campaign": 0, "events_repairs_merch": 22000, "note_en": "Fourth monthly test; cultural competition.", "note_bn": "৪র্থ মাসিক পরীক্ষা; সাংস্কৃতিক প্রতিযোগিতা।"},
+      {"month": "2026-09", "tuition_billed": 172000, "tuition_collected": 169000, "session_and_admission": 0, "exam_fees": 0, "merchandise": 5000, "fixed_costs": 130000, "exam_paper_printing": 10000, "admission_campaign": 0, "events_repairs_merch": 18000, "note_en": "Fifth monthly test; saving for the admission season.", "note_bn": "৫ম মাসিক পরীক্ষা; ভর্তি মৌসুমের জন্য সঞ্চয়।"},
+      {"month": "2026-10", "tuition_billed": 172000, "tuition_collected": 166600, "session_and_admission": 0, "exam_fees": 0, "merchandise": 4000, "fixed_costs": 130000, "exam_paper_printing": 11000, "admission_campaign": 0, "events_repairs_merch": 19600, "note_en": "Sixth monthly test.", "note_bn": "৬ষ্ঠ মাসিক পরীক্ষা।"}
+    ]
+  },
+  "november_to_date_actuals": [
+    {"id": "A-01", "date": "2026-11-02", "type": "receipt", "category": "tuition", "amount": 52000, "desc_en": "November tuition (cash)", "desc_bn": "নভেম্বরের টিউশন (নগদ)"},
+    {"id": "A-02", "date": "2026-11-04", "type": "receipt", "category": "tuition", "amount": 48000, "desc_en": "November tuition (bank and bKash)", "desc_bn": "নভেম্বরের টিউশন (ব্যাংক ও বিকাশ)"},
+    {"id": "A-03", "date": "2026-11-08", "type": "receipt", "category": "tuition", "amount": 42000, "desc_en": "November tuition (cash and bKash)", "desc_bn": "নভেম্বরের টিউশন (নগদ ও বিকাশ)"},
+    {"id": "A-04", "date": "2026-11-05", "type": "receipt", "category": "exam_fee", "amount": 30000, "desc_en": "Annual exam fees (50 students)", "desc_bn": "বার্ষিক পরীক্ষার ফি (৫০ জন)"},
+    {"id": "A-05", "date": "2026-11-10", "type": "receipt", "category": "exam_fee", "amount": 24000, "desc_en": "Annual exam fees (40 students)", "desc_bn": "বার্ষিক পরীক্ষার ফি (৪০ জন)"},
+    {"id": "A-06", "date": "2026-11-09", "type": "receipt", "category": "merchandise", "amount": 4000, "desc_en": "Diaries and ties", "desc_bn": "ডায়েরি ও টাই"},
+    {"id": "A-07", "date": "2026-11-01", "type": "payment", "category": "payroll", "amount": 72000, "desc_en": "Teacher salaries (October)", "desc_bn": "শিক্ষক বেতন (অক্টোবর)"},
+    {"id": "A-08", "date": "2026-11-01", "type": "payment", "category": "payroll", "amount": 13000, "desc_en": "Staff salaries (October)", "desc_bn": "কর্মচারী বেতন (অক্টোবর)"},
+    {"id": "A-09", "date": "2026-11-02", "type": "payment", "category": "rent", "amount": 25000, "desc_en": "Premises rent (November)", "desc_bn": "ভবন ভাড়া (নভেম্বর)"},
+    {"id": "A-10", "date": "2026-11-05", "type": "payment", "category": "utilities", "amount": 7500, "desc_en": "Electricity, water and internet (September usage)", "desc_bn": "বিদ্যুৎ, পানি ও ইন্টারনেট (সেপ্টেম্বর)"},
+    {"id": "A-11", "date": "2026-11-05", "type": "payment", "category": "refreshments", "amount": 4500, "desc_en": "Teachers' tea and snacks", "desc_bn": "শিক্ষকদের চা-নাস্তা"},
+    {"id": "A-12", "date": "2026-11-05", "type": "payment", "category": "teaching_supplies", "amount": 3500, "desc_en": "Markers, pens and chart paper", "desc_bn": "মার্কার, কলম ও চার্ট পেপার"},
+    {"id": "A-13", "date": "2026-11-05", "type": "payment", "category": "routine_printing", "amount": 4500, "desc_en": "Routine worksheets and notices", "desc_bn": "নিয়মিত ওয়ার্কশিট ও নোটিশ প্রিন্ট"},
+    {"id": "A-14", "date": "2026-11-08", "type": "payment", "category": "exam_paper_printing", "amount": 30000, "desc_en": "Annual exam question papers (first batch)", "desc_bn": "বার্ষিক পরীক্ষার প্রশ্নপত্র (১ম ধাপ)"},
+    {"id": "A-15", "date": "2026-11-12", "type": "payment", "category": "events", "amount": 25000, "desc_en": "Annual sports day", "desc_bn": "বার্ষিক ক্রীড়া দিবস"},
+    {"id": "A-16", "date": "2026-11-12", "type": "payment", "category": "maintenance", "amount": 15000, "desc_en": "Water pump replacement", "desc_bn": "পানির পাম্প বদল"}
+  ],
+  "forecast": {
+    "start_date": "2026-11-15",
+    "weeks": 8,
+    "week_starts_on": "Sunday",
+    "horizon_note_en": "Eight weeks, so the window includes the January payroll that follows the admission season.",
+    "horizon_note_bn": "আট সপ্তাহ, যাতে ভর্তি মৌসুমের পরের জানুয়ারির বেতনও হিসাবে থাকে।",
+    "lines": [
+      {"id": "F-01", "date": "2026-11-16", "type": "receipt", "category": "wallet_settlement", "amount": 4000, "status": "expected", "desc_en": "bKash settlement of tuition paid on 13-14 Nov", "desc_bn": "১৩-১৪ নভেম্বরের বিকাশ টিউশনের সেটেলমেন্ট"},
+      {"id": "F-02", "date": "2026-11-17", "type": "receipt", "category": "tuition_arrears", "amount": 11000, "status": "expected", "desc_en": "Late tuition (follow-up calls)", "desc_bn": "বকেয়া টিউশন (ফোনে তাগাদা)"},
+      {"id": "F-03", "date": "2026-11-18", "type": "receipt", "category": "exam_fee", "amount": 10000, "status": "expected", "desc_en": "Remaining annual exam fees", "desc_bn": "বাকি বার্ষিক পরীক্ষার ফি"},
+      {"id": "F-04", "date": "2026-11-17", "type": "payment", "category": "exam_paper_printing", "amount": 12000, "status": "expected", "desc_en": "Annual exam paper and ink (second batch)", "desc_bn": "বার্ষিক পরীক্ষার কাগজ ও কালি (২য় ধাপ)"},
+      {"id": "F-05", "date": "2026-11-18", "type": "payment", "category": "routine_printing", "amount": 4500, "status": "expected", "desc_en": "Routine worksheets and notices", "desc_bn": "নিয়মিত ওয়ার্কশিট ও নোটিশ"},
+      {"id": "F-06", "date": "2026-11-19", "type": "payment", "category": "teaching_supplies", "amount": 1500, "status": "expected", "desc_en": "Markers and chart paper", "desc_bn": "মার্কার ও চার্ট পেপার"},
+      {"id": "F-07", "date": "2026-11-19", "type": "payment", "category": "exam_paper_printing", "amount": 5000, "status": "committed", "desc_en": "Answer-script booklets (order confirmed, fixed price)", "desc_bn": "উত্তরপত্রের খাতা (অর্ডার নিশ্চিত, নির্দিষ্ট দাম)"},
+      {"id": "F-08", "date": "2026-11-23", "type": "receipt", "category": "tuition_arrears", "amount": 9000, "status": "expected", "desc_en": "Late tuition", "desc_bn": "বকেয়া টিউশন"},
+      {"id": "F-09", "date": "2026-11-24", "type": "receipt", "category": "exam_fee", "amount": 6000, "status": "expected", "desc_en": "Last annual exam fees", "desc_bn": "শেষ বার্ষিক পরীক্ষার ফি"},
+      {"id": "F-10", "date": "2026-11-22", "type": "payment", "category": "exam_paper_printing", "amount": 16000, "status": "expected", "desc_en": "Annual exam paper and ink (final batch)", "desc_bn": "বার্ষিক পরীক্ষার কাগজ ও কালি (শেষ ধাপ)"},
+      {"id": "F-11", "date": "2026-11-25", "type": "payment", "category": "utilities", "amount": 7500, "status": "expected", "desc_en": "Electricity, water and internet (October usage)", "desc_bn": "বিদ্যুৎ, পানি ও ইন্টারনেট (অক্টোবর)"},
+      {"id": "F-12", "date": "2026-11-26", "type": "payment", "category": "refreshments", "amount": 4500, "status": "expected", "desc_en": "Teachers' tea and snacks", "desc_bn": "শিক্ষকদের চা-নাস্তা"},
+      {"id": "F-13", "date": "2026-11-26", "type": "payment", "category": "teaching_supplies", "amount": 2000, "status": "expected", "desc_en": "Pens and exam stationery", "desc_bn": "কলম ও পরীক্ষার স্টেশনারি"},
+      {"id": "F-14", "date": "2026-11-26", "type": "payment", "category": "maintenance", "amount": 5000, "status": "expected", "desc_en": "Classroom fan and wiring repair", "desc_bn": "ক্লাসরুমের ফ্যান ও ওয়্যারিং মেরামত"},
+      {"id": "F-15", "date": "2026-11-24", "type": "payment", "category": "routine_printing", "amount": 10000, "status": "committed", "desc_en": "Result cards and report books (order confirmed, fixed price)", "desc_bn": "রেজাল্ট কার্ড ও রিপোর্ট বই (অর্ডার নিশ্চিত, নির্দিষ্ট দাম)"},
+      {"id": "F-16", "date": "2026-12-01", "type": "receipt", "category": "tuition", "amount": 25000, "status": "expected", "desc_en": "December tuition: early payers", "desc_bn": "ডিসেম্বরের টিউশন: আগে যারা দেন"},
+      {"id": "F-17", "date": "2026-12-02", "type": "receipt", "category": "tuition", "amount": 15000, "status": "expected", "desc_en": "December tuition (bank and bKash)", "desc_bn": "ডিসেম্বরের টিউশন (ব্যাংক ও বিকাশ)"},
+      {"id": "F-18", "date": "2026-12-03", "type": "receipt", "category": "tuition_arrears", "amount": 5000, "status": "expected", "desc_en": "Late tuition", "desc_bn": "বকেয়া টিউশন"},
+      {"id": "F-19", "date": "2026-12-01", "type": "payment", "category": "payroll", "amount": 72000, "status": "expected", "desc_en": "Teacher salaries (November)", "desc_bn": "শিক্ষক বেতন (নভেম্বর)"},
+      {"id": "F-20", "date": "2026-12-01", "type": "payment", "category": "payroll", "amount": 13000, "status": "expected", "desc_en": "Staff salaries (November)", "desc_bn": "কর্মচারী বেতন (নভেম্বর)"},
+      {"id": "F-21", "date": "2026-12-02", "type": "payment", "category": "rent", "amount": 25000, "status": "expected", "desc_en": "Premises rent (December)", "desc_bn": "ভবন ভাড়া (ডিসেম্বর)"},
+      {"id": "F-22", "date": "2026-12-08", "type": "receipt", "category": "tuition", "amount": 30000, "status": "expected", "desc_en": "December tuition: result-day collections", "desc_bn": "ডিসেম্বরের টিউশন: ফলাফলের দিনে আদায়"},
+      {"id": "F-23", "date": "2026-12-09", "type": "receipt", "category": "tuition_arrears", "amount": 5000, "status": "expected", "desc_en": "Late tuition", "desc_bn": "বকেয়া টিউশন"},
+      {"id": "F-24", "date": "2026-12-07", "type": "payment", "category": "utilities", "amount": 7500, "status": "expected", "desc_en": "Electricity, water and internet (November usage)", "desc_bn": "বিদ্যুৎ, পানি ও ইন্টারনেট (নভেম্বর)"},
+      {"id": "F-25", "date": "2026-12-09", "type": "payment", "category": "refreshments", "amount": 4500, "status": "expected", "desc_en": "Teachers' tea and snacks", "desc_bn": "শিক্ষকদের চা-নাস্তা"},
+      {"id": "F-26", "date": "2026-12-10", "type": "payment", "category": "teaching_supplies", "amount": 3000, "status": "expected", "desc_en": "Result-day stationery", "desc_bn": "ফলাফল দিবসের স্টেশনারি"},
+      {"id": "F-27", "date": "2026-12-08", "type": "payment", "category": "maintenance", "amount": 5000, "status": "committed", "desc_en": "Toilet plumbing repair (contractor booked, fixed price)", "desc_bn": "টয়লেটের প্লাম্বিং মেরামত (মিস্ত্রি ঠিক করা, নির্দিষ্ট দাম)"},
+      {"id": "F-28", "date": "2026-12-13", "type": "receipt", "category": "session_fee_existing", "amount": 54000, "status": "expected", "desc_en": "2027 session fee: existing students (27 x BDT 2,000)", "desc_bn": "২০২৭ সেশন ফি: বর্তমান শিক্ষার্থী (২৭ জন x ২,০০০)"},
+      {"id": "F-29", "date": "2026-12-15", "type": "receipt", "category": "admission_new", "amount": 4100, "status": "expected", "desc_en": "New admission: pre-registered sibling (1 student x BDT 4,100)", "desc_bn": "নতুন ভর্তি: আগে নিবন্ধিত ভাই/বোন (১ জন x ৪,১০০)"},
+      {"id": "F-30", "date": "2026-12-17", "type": "receipt", "category": "merchandise", "amount": 1900, "status": "expected", "desc_en": "Diary pre-bookings", "desc_bn": "ডায়েরির আগাম বুকিং"},
+      {"id": "F-31", "date": "2026-12-14", "type": "payment", "category": "routine_printing", "amount": 4500, "status": "expected", "desc_en": "Admission forms and prospectus", "desc_bn": "ভর্তি ফরম ও প্রসপেক্টাস"},
+      {"id": "F-32", "date": "2026-12-15", "type": "payment", "category": "maintenance", "amount": 4500, "status": "expected", "desc_en": "Generator servicing", "desc_bn": "জেনারেটর সার্ভিসিং"},
+      {"id": "F-33", "date": "2026-12-17", "type": "payment", "category": "teaching_supplies", "amount": 3000, "status": "expected", "desc_en": "Winter-break homework packs", "desc_bn": "শীতের ছুটির বাড়ির কাজের প্যাক"},
+      {"id": "F-34", "date": "2026-12-20", "type": "receipt", "category": "session_fee_existing", "amount": 58000, "status": "expected", "desc_en": "2027 session fee: existing students (29 x BDT 2,000)", "desc_bn": "২০২৭ সেশন ফি: বর্তমান শিক্ষার্থী (২৯ জন x ২,০০০)"},
+      {"id": "F-35", "date": "2026-12-21", "type": "receipt", "category": "admission_new", "amount": 8200, "status": "expected", "desc_en": "New admissions: referrals (2 students x BDT 4,100)", "desc_bn": "নতুন ভর্তি: পরিচিতদের মাধ্যমে (২ জন x ৪,১০০)"},
+      {"id": "F-36", "date": "2026-12-22", "type": "receipt", "category": "tuition", "amount": 10000, "status": "expected", "desc_en": "December tuition: late payers", "desc_bn": "ডিসেম্বরের টিউশন: দেরিতে যারা দেন"},
+      {"id": "F-37", "date": "2026-12-23", "type": "receipt", "category": "merchandise", "amount": 3800, "status": "expected", "desc_en": "Diaries, ties and uniforms", "desc_bn": "ডায়েরি, টাই ও ইউনিফর্ম"},
+      {"id": "F-38", "date": "2026-12-21", "type": "payment", "category": "books_and_diaries", "amount": 18000, "status": "expected", "desc_en": "2027 diaries and ID cards (advance to printer)", "desc_bn": "২০২৭ সালের ডায়েরি ও আইডি কার্ড (প্রেসে অগ্রিম)"},
+      {"id": "F-39", "date": "2026-12-22", "type": "payment", "category": "maintenance", "amount": 7000, "status": "expected", "desc_en": "Year-end cleaning and minor repairs", "desc_bn": "বছর শেষের পরিষ্কার ও ছোট মেরামত"},
+      {"id": "F-40", "date": "2026-12-27", "type": "receipt", "category": "session_fee_existing", "amount": 52000, "status": "expected", "desc_en": "2027 session fee: existing students (26 x BDT 2,000)", "desc_bn": "২০২৭ সেশন ফি: বর্তমান শিক্ষার্থী (২৬ জন x ২,০০০)"},
+      {"id": "F-41", "date": "2026-12-28", "type": "receipt", "category": "admission_new", "amount": 8200, "status": "expected", "desc_en": "New admissions: walk-ins (2 students x BDT 4,100)", "desc_bn": "নতুন ভর্তি: সরাসরি আসা (২ জন x ৪,১০০)"},
+      {"id": "F-42", "date": "2026-12-29", "type": "receipt", "category": "tuition", "amount": 6000, "status": "expected", "desc_en": "December tuition: late payers", "desc_bn": "ডিসেম্বরের টিউশন: দেরিতে যারা দেন"},
+      {"id": "F-43", "date": "2026-12-30", "type": "receipt", "category": "merchandise", "amount": 3800, "status": "expected", "desc_en": "Diaries, ties and uniforms", "desc_bn": "ডায়েরি, টাই ও ইউনিফর্ম"},
+      {"id": "F-44", "date": "2026-12-28", "type": "payment", "category": "books_and_diaries", "amount": 15000, "status": "expected", "desc_en": "2027 textbooks (first batch)", "desc_bn": "২০২৭ সালের পাঠ্যবই (১ম ধাপ)"},
+      {"id": "F-45", "date": "2027-01-03", "type": "receipt", "category": "tuition", "amount": 45000, "status": "expected", "desc_en": "January tuition: early payers", "desc_bn": "জানুয়ারির টিউশন: আগে যারা দেন"},
+      {"id": "F-46", "date": "2027-01-04", "type": "receipt", "category": "session_fee_existing", "amount": 32000, "status": "expected", "desc_en": "2027 session fee: existing students (16 x BDT 2,000)", "desc_bn": "২০২৭ সেশন ফি: বর্তমান শিক্ষার্থী (১৬ জন x ২,০০০)"},
+      {"id": "F-47", "date": "2027-01-05", "type": "receipt", "category": "admission_new", "amount": 4100, "status": "expected", "desc_en": "New admission: walk-in (1 student x BDT 4,100)", "desc_bn": "নতুন ভর্তি: সরাসরি আসা (১ জন x ৪,১০০)"},
+      {"id": "F-48", "date": "2027-01-06", "type": "receipt", "category": "merchandise", "amount": 8900, "status": "expected", "desc_en": "Books, diaries and uniform sales", "desc_bn": "বই, ডায়েরি ও ইউনিফর্ম বিক্রি"},
+      {"id": "F-49", "date": "2027-01-03", "type": "payment", "category": "payroll", "amount": 72000, "status": "expected", "desc_en": "Teacher salaries (December)", "desc_bn": "শিক্ষক বেতন (ডিসেম্বর)"},
+      {"id": "F-50", "date": "2027-01-03", "type": "payment", "category": "payroll", "amount": 13000, "status": "expected", "desc_en": "Staff salaries (December)", "desc_bn": "কর্মচারী বেতন (ডিসেম্বর)"},
+      {"id": "F-51", "date": "2027-01-04", "type": "payment", "category": "rent", "amount": 25000, "status": "expected", "desc_en": "Premises rent (January)", "desc_bn": "ভবন ভাড়া (জানুয়ারি)"},
+      {"id": "F-52", "date": "2027-01-06", "type": "payment", "category": "utilities", "amount": 7500, "status": "expected", "desc_en": "Electricity, water and internet (December usage)", "desc_bn": "বিদ্যুৎ, পানি ও ইন্টারনেট (ডিসেম্বর)"},
+      {"id": "F-53", "date": "2027-01-07", "type": "payment", "category": "refreshments", "amount": 4500, "status": "expected", "desc_en": "Teachers' tea and snacks", "desc_bn": "শিক্ষকদের চা-নাস্তা"}
+    ]
+  },
+  "student_economics": {
+    "horizon_months": 12,
+    "admission_fee": 2500,
+    "session_fee": 2000,
+    "monthly_tuition": 1200,
+    "new_student_discount": 400,
+    "collection_rate": 0.92,
+    "collection_rate_note_en": "Planning rate lowered from 0.95 to 0.92 after last year's variance (see learning loop); approved by the owner on 2026-10-05.",
+    "collection_rate_note_bn": "গত বছরের পার্থক্য দেখে আদায়ের হার ০.৯৫ থেকে ০.৯২ করা হয়েছে (লার্নিং লুপ দেখুন); মালিক ২০২৬-১০-০৫ তারিখে অনুমোদন করেছেন।",
+    "retention_probability": 0.95,
+    "variable_cost_books_id_diary": 1100,
+    "variable_cost_exam_materials": 500,
+    "method_note_en": "Conservative: the collection and retention rates are applied to all fees, and exam-fee income is left out while exam-material cost is kept.",
+    "method_note_bn": "রক্ষণশীল হিসাব: আদায় ও ধরে রাখার হার সব ফি-তে প্রয়োগ, পরীক্ষার ফি আয় বাদ কিন্তু পরীক্ষার উপকরণের খরচ রাখা।"
+  },
+  "plans": [
+    {
+      "id": "PLAN_CONSERVATIVE", "name_en": "Conservative", "name_bn": "রক্ষণশীল",
+      "extra_students_estimate": {"downside": 4, "base": 7, "upside": 11},
+      "items": [
+        {"id": "C1", "label_en": "Local banners and leaflets", "label_bn": "এলাকার ব্যানার ও লিফলেট", "amount": 20000, "flex": null},
+        {"id": "C2", "label_en": "Calendar printing (300)", "label_bn": "ক্যালেন্ডার ছাপা (৩০০টি)", "amount": 15000, "flex": {"type": "supplier_credit", "pay_week": 5, "cost_pct": 0.01}},
+        {"id": "C3", "label_en": "Classroom touch-up paint", "label_bn": "ক্লাসরুমে হালকা রং", "amount": 15000, "flex": {"type": "stage_after_payroll", "pay_week": 4, "cost_pct": 0}},
+        {"id": "C4", "label_en": "Sample books and admission forms", "label_bn": "নমুনা বই ও ভর্তি ফরম", "amount": 10000, "flex": {"type": "postpone", "pay_week": 7, "cost_pct": 0}}
+      ]
+    },
+    {
+      "id": "PLAN_BALANCED", "name_en": "Balanced", "name_bn": "ভারসাম্যপূর্ণ",
+      "extra_students_estimate": {"downside": 5, "base": 10, "upside": 15},
+      "items": [
+        {"id": "B1", "label_en": "Targeted banners, miking and Facebook boost", "label_bn": "নির্দিষ্ট এলাকায় ব্যানার, মাইকিং ও ফেসবুক বুস্ট", "amount": 26000, "flex": null},
+        {"id": "B2", "label_en": "Premium wall calendars (500)", "label_bn": "মানসম্মত দেয়াল ক্যালেন্ডার (৫০০টি)", "amount": 20000, "flex": {"type": "supplier_credit", "pay_week": 5, "cost_pct": 0.01}},
+        {"id": "B3", "label_en": "Front gate and classroom painting (phase 1)", "label_bn": "প্রধান গেট ও ক্লাসরুম রং (১ম ধাপ)", "amount": 19000, "flex": {"type": "stage_after_payroll", "pay_week": 4, "cost_pct": 0}},
+        {"id": "B4", "label_en": "Books and welcome kits", "label_bn": "বই ও স্বাগত কিট", "amount": 12000, "flex": {"type": "postpone", "pay_week": 7, "cost_pct": 0}}
+      ]
+    },
+    {
+      "id": "PLAN_AGGRESSIVE", "name_en": "Aggressive", "name_bn": "আগ্রাসী",
+      "extra_students_estimate": {"downside": 6, "base": 12, "upside": 18},
+      "items": [
+        {"id": "G1", "label_en": "Large billboards and full campaign", "label_bn": "বড় বিলবোর্ড ও পূর্ণ প্রচারণা", "amount": 38000, "flex": null},
+        {"id": "G2", "label_en": "Calendars and branded folders", "label_bn": "ক্যালেন্ডার ও লোগোসহ ফোল্ডার", "amount": 24000, "flex": {"type": "supplier_credit", "pay_week": 5, "cost_pct": 0.01}},
+        {"id": "G3", "label_en": "Full building painting", "label_bn": "পুরো ভবন রং", "amount": 25000, "flex": {"type": "stage_after_payroll", "pay_week": 4, "cost_pct": 0}},
+        {"id": "G4", "label_en": "Extra book stock and decorations", "label_bn": "অতিরিক্ত বই ও সাজসজ্জা", "amount": 13000, "flex": {"type": "postpone", "pay_week": 7, "cost_pct": 0}}
+      ]
+    }
+  ],
+  "history": [
+    {
+      "id": "HIST-2025",
+      "period_en": "Nov-Dec 2025 admission campaign",
+      "period_bn": "নভেম্বর-ডিসেম্বর ২০২৫ ভর্তি প্রচারণা",
+      "approved_budget": 70000,
+      "forecast_extra_admissions": 12,
+      "actual_extra_admissions": 10,
+      "forecast_collection_rate": 0.95,
+      "actual_collection_rate": 0.89,
+      "update_en": "Planning collection rate lowered to 0.92 with the owner's approval (2026-10-05). No automatic learning: the forecast changes only when the owner approves.",
+      "update_bn": "মালিকের অনুমোদনে (২০২৬-১০-০৫) পরিকল্পনার আদায়ের হার ০.৯২ করা হয়েছে। স্বয়ংক্রিয় শেখা নয়: মালিক অনুমোদন দিলে তবেই পূর্বাভাস বদলায়।"
+    }
+  ],
+  "open_questions": [
+    {"id": "Q_RESERVE", "priority": 1, "field": "reserve_policy.minimum_reserve", "q_en": "Is BDT 50,000 the minimum cash you always want to keep? (It is a proposed default.)", "q_bn": "সবসময় কমপক্ষে ৫০,০০০ টাকা হাতে রাখতে চান কি? (এটি প্রস্তাবিত মান।)"},
+    {"id": "Q_EXAM_FEES", "priority": 2, "field": "exam_fee_policy", "q_en": "Are exam fees kept only for exam paper and printing, or can they pay other costs?", "q_bn": "পরীক্ষার ফি কি শুধু পরীক্ষার কাগজ ও ছাপার জন্য, নাকি অন্য খরচেও ব্যবহার করা যায়?"},
+    {"id": "Q_FEE_SENSITIVITY", "priority": 3, "field": "fee_sensitivity", "q_en": "If fees rise next year, about how many parents might ask for instalments or discounts?", "q_bn": "আগামী বছর ফি বাড়লে আনুমানিক কতজন অভিভাবক কিস্তি বা ছাড় চাইতে পারেন?"}
+  ],
+  "roster": {
+    "note_en": "Students with tuition dues on 15 Nov. dues_before_register is the per-student balance before the 1-14 Nov fee register is imported.",
+    "students": [
+      {"id": "STU-001", "name": "Ayaan Rahman", "class": "KG", "guardian": "Nasima Rahman", "phone": "01000-000101", "monthly_fee": 1200, "dues_before_register": 7800, "status": "active"},
+      {"id": "STU-002", "name": "Maliha Akter", "class": "Class 1", "guardian": "Rokeya Begum", "phone": "01000-000102", "monthly_fee": 1200, "dues_before_register": 7200, "status": "active"},
+      {"id": "STU-003", "name": "Tahmid Hasan", "class": "Nursery", "guardian": "Kamrul Hasan", "phone": "01000-000103", "monthly_fee": 1200, "dues_before_register": 7200, "status": "active"},
+      {"id": "STU-004", "name": "Nusrat Jahan", "class": "Class 2", "guardian": "Shirin Sultana", "phone": "01000-000104", "monthly_fee": 1200, "dues_before_register": 6000, "status": "active"},
+      {"id": "STU-005", "name": "Rafi Chowdhury", "class": "Play", "guardian": "Mahmuda Chowdhury", "phone": "01000-000105", "monthly_fee": 1200, "dues_before_register": 4800, "status": "active"},
+      {"id": "STU-006", "name": "Sumaiya Islam", "class": "Class 3", "guardian": "Abdul Karim", "phone": "01000-000106", "monthly_fee": 1200, "dues_before_register": 4800, "status": "active"},
+      {"id": "STU-007", "name": "Arif Hossain", "class": "KG", "guardian": "Jahanara Hossain", "phone": "01000-000107", "monthly_fee": 1200, "dues_before_register": 3600, "status": "active"},
+      {"id": "STU-008", "name": "Lamia Ferdous", "class": "Class 1", "guardian": "Farhana Ferdous", "phone": "01000-000108", "monthly_fee": 1200, "dues_before_register": 4800, "status": "active"},
+      {"id": "STU-009", "name": "Zarif Ahmed", "class": "Nursery", "guardian": "Selina Ahmed", "phone": "01000-000109", "monthly_fee": 1200, "dues_before_register": 3600, "status": "active"},
+      {"id": "STU-010", "name": "Tasnim Haque", "class": "Class 4", "guardian": "Mizanul Haque", "phone": "01000-000110", "monthly_fee": 1200, "dues_before_register": 6000, "status": "active"},
+      {"id": "STU-011", "name": "Imran Sarker", "class": "Class 5", "guardian": "Rahela Sarker", "phone": "01000-000111", "monthly_fee": 1200, "dues_before_register": 3600, "status": "active"},
+      {"id": "STU-012", "name": "Farzana Mim", "class": "Class 2", "guardian": "Delwar Hossain", "phone": "01000-000112", "monthly_fee": 1200, "dues_before_register": 3600, "status": "active"},
+      {"id": "STU-013", "name": "Siam Mollah", "class": "Play", "guardian": "Ruma Mollah", "phone": "01000-000113", "monthly_fee": 1200, "dues_before_register": 2400, "status": "active"},
+      {"id": "STU-014", "name": "Rumana Khatun", "class": "Class 3", "guardian": "Habibur Rahman", "phone": "01000-000114", "monthly_fee": 1200, "dues_before_register": 1200, "status": "active"},
+      {"id": "STU-015", "name": "Nafis Iqbal", "class": "KG", "guardian": "Tania Iqbal", "phone": "01000-000115", "monthly_fee": 1200, "dues_before_register": 1200, "status": "active"},
+      {"id": "STU-016", "name": "Afia Tabassum", "class": "Class 1", "guardian": "Saiful Islam", "phone": "01000-000116", "monthly_fee": 1200, "dues_before_register": 1200, "status": "active"},
+      {"id": "STU-017", "name": "Rifat Mia", "class": "Class 4", "guardian": "Kulsum Begum", "phone": "01000-000117", "monthly_fee": 700, "dues_before_register": 2800, "status": "active"},
+      {"id": "STU-018", "name": "Shila Rani Das", "class": "Class 2", "guardian": "Gopal Das", "phone": "01000-000118", "monthly_fee": 700, "dues_before_register": 1400, "status": "active"},
+      {"id": "STU-019", "name": "Hasib Uddin", "class": "Class 5", "guardian": "Momena Khatun", "phone": "01000-000119", "monthly_fee": 700, "dues_before_register": 1400, "status": "active"},
+      {"id": "STU-020", "name": "Nabila Sultana", "class": "Class 3", "guardian": "Anwar Sultan", "phone": "01000-000120", "monthly_fee": 1200, "dues_before_register": 0, "status": "withdrawn", "withdrawn_on": "2026-10-31"}
+    ]
+  },
+  "extras": {
+    "brain_games_kit": {
+      "label_en": "Brain-games kit for parents to buy or rent",
+      "label_bn": "অভিভাবকদের কেনা বা ভাড়ার জন্য ব্রেইন-গেমস কিট",
+      "current_stock": 5,
+      "needed_for_classrooms": 20,
+      "unit_price_spot": 480,
+      "unit_price_bulk": 360,
+      "bulk_min_qty": 80,
+      "storage_limit": 150,
+      "proposed_extra_units": 70,
+      "sale_price": 550,
+      "rental_fee_monthly": 60,
+      "demand_estimate": {"base": 75, "downside": 45, "status": "ASSUMED", "source_en": "Owner's guess; no survey yet.", "source_bn": "মালিকের অনুমান; এখনো জরিপ হয়নি।"},
+      "prebooking_rule_pct": 0.5
+    },
+    "engagement_event": {
+      "label_en": "Annual brain-games fair",
+      "label_bn": "বার্ষিক ব্রেইন-গেমস মেলা",
+      "fixed_costs": 12000,
+      "cost_per_person": 90,
+      "paying_students": 140,
+      "free_guests_and_teachers": 35,
+      "contribution_per_student": 100,
+      "retention_and_referral_effect": {"retained_students": 3, "new_admissions": 4, "status": "ASSUMED", "source_en": "Owner's belief; not measured.", "source_bn": "মালিকের ধারণা; মাপা হয়নি।"}
+    }
+  }
+}
